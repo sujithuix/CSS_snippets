@@ -1,0 +1,15 @@
+html
+
+<a href="https://www.google.com" /> Go to google </a>
+
+css
+
+a:hover:after {
+	display: block;
+  width: 160px;
+  content: attr(href);
+  background: #444;
+  color: #ccc;
+  padding: 4px 6px;
+  margin-top: 2px;
+	}
