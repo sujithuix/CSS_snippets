@@ -41,7 +41,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* let all custom tags have a class anme which start eiwth "app-"
+/* let all custom tags have a class name which start with "app-"
 [class*="app-"]{
 display:block;
 }
