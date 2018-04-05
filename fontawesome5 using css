@@ -1,0 +1,15 @@
+.emp-item .emp-details .emp-email-link:before {
+    content: "\f0e0";  /* this is your text. You can also use UTF-8 character codes as I do here */
+    /* >> Name of the FA free font (mandatory)
+               - 'Font Awesome 5 Free' for Regular and Solid symbols;
+               - 'Font Awesome 5 Brand' for Brands symbols. */
+    font-family: 'Font Awesome 5 Free';
+    /* >> Weight of the font (mandatory)
+               - 400 for Regular and Brands symbols;
+               - 900 for Solid symbols. */
+    font-weight: 900;
+
+    /* >> Optional styling: */
+    display: inline-block;
+    /* ... */
+ }
