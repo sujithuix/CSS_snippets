@@ -1,0 +1,8 @@
+.left { 
+    float: left;
+    width: 200px;
+}
+.right {
+    overflow: hidden;
+    /* don't float this one */
+}
