@@ -28,7 +28,7 @@ The flexbox spec defines an initial flex-shrink value of 1 but says items should
 Flexbug #2
 Column flex items set to align-items: center overflow their container
 
-Demos	Browsers affected
+Demos	Browsers  affected
 2.1.a – bug
 2.1.b – workaround	Internet Explorer 10-11 (fixed in Edge)
 When using align-items: center on a flex container in the column direction, the contents of flex item, if too big, will overflow their container in IE 10-11.
