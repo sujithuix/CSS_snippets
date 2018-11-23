@@ -1,0 +1,90 @@
+td {
+    position: relative;
+}
+
+.slot {
+    position: absolute;
+    top: 0;
+    height: 100%
+}
+/* slot colors */
+.slot--busy {
+    background: blue;
+}
+
+.slot--tentative {
+    background: grey;
+}
+
+.slot--out-of-office {
+    background: red;
+}
+
+/* slot width*/
+
+.slot--1hour {
+    width: 100%;
+}
+
+.slot--45min {
+    width: 75%;
+}
+
+.slot--30min {
+    width: 30%
+}
+
+.slot--15min {
+    width: 25%;
+}
+
+/* slot position */
+
+div[class*="slot--0"]{
+    left: 0;
+}
+div[class*="slot--15"]{
+    left: 25%;
+}
+div[class*="slot--30"]{
+    left: 30%;
+}
+div[class*="slot--45"]{
+    left: 75%;
+}
+
+class names,
+
+1) All spans should have class "slot"
+2) busy span should have class "slot--busy". Similar way, slot--tentative, .slot--out-of-office
+3) I hour slot should have class slot--1hour . Similar way, slot--45min, slot--30min, .slot--15min
+4) class names according to time
+
+/* 15 min slots */
+
+slot--0-15 
+
+slot--15-30 
+
+slot--30-45 
+
+slot-45-60 
+
+
+/* 30 min slots */
+
+slot--0-30 
+
+slot--30-60 
+
+slot--15-45 
+
+/* 45 min slots */
+
+slot--0-45 
+
+slot--15-60 
+
+/* 1 hour slots */
+
+slot--0-15 
